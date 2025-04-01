@@ -359,14 +359,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
-  height: 700px;
+  height: 900px;
   display: table;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover .display-t,
   .gtco-cover .display-tc {
-    height: 00px;
+    height: 600px;
   }
 }
 .gtco-cover.gtco-cover-sm {

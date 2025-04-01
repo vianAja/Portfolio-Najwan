@@ -32,4 +32,5 @@ def push_gitlab(commit_name: str,):
     proses_push.stdin.close()
 
 if __name__ == '__main__':
-    push_gitlab(commit_name='test commit manual')
+    input_commit = str(input('  => '))
+    push_gitlab(commit_name=input_commit)
