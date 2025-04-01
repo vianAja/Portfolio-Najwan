@@ -19,6 +19,13 @@ body {
   background: #fff;
 }
 
+.favicon {
+  width: 50px;  /* Sesuaikan ukuran */
+  height: 50px;
+  border-radius: 50%;  /* Membuat gambar menjadi bulat */
+  overflow: hidden;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
