@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 750px;
+  height: 900px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -687,7 +687,7 @@ form label {
 }
 .feature-center h3 {
   font-size: 18px;
-  color: #000;
+  color: #000000;
   position: relative;
 }
 
@@ -752,6 +752,7 @@ form label {
 
 #gtco-products {
   background: #efefef;
+  /*background: #303841;*/
 }
 #gtco-products .testimony-slide {
   text-align: center;
