@@ -375,7 +375,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media (max-width: 768px) {
   .gtco-cover .overlay {
-    background-size: 100vh auto;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
