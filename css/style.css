@@ -368,7 +368,8 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   /*background: rgba(86, 22, 22, 0.89);*/
   background: var(--primary-color);
-  background-image: url('../images/walpaper6.png');
+  /*background-image: url('../images/walpaper6.png');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/walpaper6.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 130vw auto;
@@ -496,7 +497,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   display: inline;
-  color: #17B794;
+  /*color: #17B794;*/
+  color: var(--primary-color);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1044,7 +1046,7 @@ form label {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: var(--primary-color);
   top: 0;
   right: 0;
   top: 0;

@@ -5808,6 +5808,8 @@ button.close {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .item h2 {
