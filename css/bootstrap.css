@@ -5817,9 +5817,14 @@ button.close {
 
 .item span {
   display: block;
-  background: rgba(0, 0, 0, 0.5);
+  /*background: rgba(0, 0, 0, 0.5);;*/
+  background: var(--heading-my-project);
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+.item span:hover, .item span:focus {
+  color: var(--heading-text-my-project);
 }
 
 /* Background untuk setiap item */

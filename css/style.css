@@ -11,6 +11,8 @@
   --second-color: rgba(84, 23, 23, 0.89);
   --third-color: rgba(244, 183, 0, 0.89);
   --icon-feature-color: rgba(255, 64, 64, 0.89);
+  --heading-my-project: rgba(217, 102, 73, 0.89);
+  --heading-text-my-project: rgba(88, 1, 1, 0.89);
 }
 
 /* =======================================================
@@ -69,7 +71,8 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #17B794;
+  /*color: #17B794;*/
+  color: var(--heading-text-my-project);
   outline: none;
   text-decoration: none;
 }
@@ -160,7 +163,8 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
-  color: rgb(198, 193, 193);
+  /*color: rgb(198, 193, 193);*/
+  color: var(--heading-text-my-project);
 }
 .gtco-nav ul li.has-dropdown {
   position: relative;
@@ -1919,7 +1923,8 @@ form label {
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: #17B794;
+  /*background: #17B794;;*/
+  background: var(--heading-text-my-project);
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -1927,12 +1932,14 @@ form label {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #17B794;
+  border: 2px solid var(--heading-text-my-project);
+  /*#17B794;*/
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #17B794;
+  border: 2px solid var(--heading-text-my-project);
+  /*#17B794;*/
 }
 
 /*# sourceMappingURL=style.css.map */
