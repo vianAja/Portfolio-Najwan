@@ -148,7 +148,9 @@
 				<script>
 				  // Inisialisasi EmailJS (gunakan user ID dari EmailJS dashboard)
 				  (function() {
-				    emailjs.init("YOUR_USER_ID"); // Ganti dengan user ID kamu dari EmailJS
+				    emailjs.init({
+						publicKey: '1sSPJPcY6tnPF7wth'
+					}); // Ganti dengan user ID kamu dari EmailJS
 				  })();
 				
 				  document.getElementById("contact-form").addEventListener("submit", function(e) {
