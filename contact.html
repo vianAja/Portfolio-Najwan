@@ -166,7 +166,7 @@
 				      message: message
 				    };
 				
-				    emailjs.send(`${env.SERVICE_ID}`, `${env.TEMPLATE_ID}`, templateParams)
+				    emailjs.send('service_cgyv113', 'template_visp1hi', templateParams)
 				      .then(function(response) {
 				        alert("Email sent successfully!");
 				      }, function(error) {
