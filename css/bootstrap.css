@@ -1408,7 +1408,6 @@ pre code {
   .col-md-12 {
     width: 100%;
   }
-
   .col-md-pull-0 {
     right: auto;
   }
@@ -5840,6 +5839,83 @@ button.close {
 
 .item-3 {
   background-image: url('../images/img_3.jpg');
+}
+
+.item-certificate {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  /*height: 350px; /* Sesuaikan ukuran item */
+}
+.item-certificate a {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.item-certificate img {
+  width: 30% ; /* Sesuaikan ukuran item */
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.item-certificate h1,
+.item-certificate h2,
+.item-certificate h3 {
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+}
+
+.item-certificate h1 {
+  text-transform: uppercase;
+}
+
+.item-certificate h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.item-certificate p {
+  margin: 10px 0 0 0;
+}
+
+.ket-certificate {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: first baseline;
+}
+
+@media (max-width: 768px) {
+  .item-certificate a {
+    flex-direction: column;
+    align-items: center; /* Pusatkan gambar dan teks secara horizontal */
+    justify-content: center;
+  }
+
+  .item-certificate img {
+    max-width: 250px;
+    display: block;
+    margin-left: 0;
+  }
+
+  .ket-certificate {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .item-certificate h1 {
+    font-size: 25px;
+  }
+  .item-certificate h2 {
+    font-size: 18px;
+  }
 }
 
 .carousel-inner > .active,

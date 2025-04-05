@@ -1,0 +1,6 @@
+Ceph Administration - https://adinusa.id/course/publisher/show/b5e0e2b8-7661-4c13-b394-3cedc5f37f14
+OpenStack Administration Multi Node - https://adinusa.id/course/publisher/show/b418e5a9-14a6-4dfb-af80-a1175979559d
+Kubernetes Cluster Administration - https://adinusa.id/course/publisher/show/8c642d16-5d8d-4240-ae04-e1676dd3f54f
+GitLab Administration - https://adinusa.id/course/publisher/show/312b560b-411d-4732-a277-1af3552eddbe
+Getting Started with ELK Stack - https://adinusa.id/course/publisher/show/b11dc352-e3c0-441a-9fb3-589e46ea1f51
+Monitoring with Prometheus - https://adinusa.id/course/publisher/show/6da87b25-9b62-4480-ab81-a33dca5fca01
