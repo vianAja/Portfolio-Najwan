@@ -5812,12 +5812,17 @@ button.close {
 }
 
 .item h2 {
-  padding-top: 5%;
+  padding: 5% 3% 0 3%;
   font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .item span {
   display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Droid Sans", Arial, sans-serif;
   /*background: rgba(0, 0, 0, 0.5);;*/
   background: var(--heading-my-project);
   padding: 5px 10px;
