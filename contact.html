@@ -66,7 +66,7 @@
 					<div class="col-md-12 text-right gtco-contact">
 						<ul class="">
 							<li><a href="#"><i class="ti-mobile"></i> +62 8954 1436 1074 </a></li>
-							<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
+							<li><a href="error.html"><i class="ti-twitter-alt"></i> </a></li>
 							<li><a href="#"><i class="icon-mail2"></i></a></li>
 							<li><a href="#"><i class="ti-facebook"></i></a></li>
 						</ul>
@@ -81,7 +81,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="https://vianaja.github.io/blog-najwan/">Blog</a></li>
-							<li class="active"><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="error.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -141,43 +141,12 @@
 						<div class="form-group">
 							<input type="submit" value="Send Message" class="btn btn-primary btn-lg">
 						</div>
-
+						<!-- 
+						<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+						<script src="js/send_message.js"></script>
+						-->
 					</form>		
 				</div>
-				<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-				<script>
-				  // Inisialisasi EmailJS (gunakan user ID dari EmailJS dashboard)
-				  (function() {
-				    emailjs.init({
-						publicKey: '1sSPJPcY6tnPF7wth'
-					}); // Ganti dengan user ID kamu dari EmailJS
-				  })();
-				
-				  document.getElementById("contact-form").addEventListener("submit", function(e) {
-				    e.preventDefault();
-				
-				    const name = document.getElementById("name").value;
-				    const email = document.getElementById("email").value;
-				    const subject = document.getElementById("subject").value;
-				    const message = document.getElementById("message").value;
-				
-				    const templateParams = {
-				      from_name: name,
-				      from_email: email,
-				      subject: subject,
-				      message: message
-				    };
-				
-				    emailjs.send('service_cgyv113', 'template_visp1hi', templateParams)
-				      .then(function(response) {
-				        alert("Email sent successfully!");
-				      }, function(error) {
-				        alert("Failed to send email. Please try again.");
-				        console.error(error);
-				      });
-				  });
-				</script>
-
 				<div class="col-md-5 col-md-push-1 animate-box">
 					<div class="gtco-contact-info">
 						<h3>Contact Information</h3>

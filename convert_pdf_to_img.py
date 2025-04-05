@@ -11,5 +11,5 @@ def main(full_path):
     # Loop setiap halaman dan simpan sebagai gambar
     for i, page in enumerate(doc):
         pix = page.get_pixmap()  # Render halaman jadi gambar
-        pix.save(f"{full_path}.png")  # Simpan sebagai PNG
+        pix.save(f"{full_path.replace('.pdf', '')}.png")  # Simpan sebagai PNG
         print(f'Conver Berhasil, silahkan cek di {full_path}')

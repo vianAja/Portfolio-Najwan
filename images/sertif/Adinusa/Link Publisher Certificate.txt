@@ -1,3 +1,6 @@
+Linux System Administration - https://adinusa.id/course/publisher/show/8aa79917-b598-48bc-af9f-d083e75ad882
+Docker Fundamental - https://adinusa.id/course/publisher/show/3e1ace76-c1df-4f47-81e6-88cf6f5812f2
+Automation with Ansible - https://adinusa.id/course/publisher/show/0bdb48d3-7594-4257-93e8-5727703799c1
 Ceph Administration - https://adinusa.id/course/publisher/show/b5e0e2b8-7661-4c13-b394-3cedc5f37f14
 OpenStack Administration Multi Node - https://adinusa.id/course/publisher/show/b418e5a9-14a6-4dfb-af80-a1175979559d
 Kubernetes Cluster Administration - https://adinusa.id/course/publisher/show/8c642d16-5d8d-4240-ae04-e1676dd3f54f

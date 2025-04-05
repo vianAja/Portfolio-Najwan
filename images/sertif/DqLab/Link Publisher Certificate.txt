@@ -1,0 +1,10 @@
+Fundamental SQL Using FUNCTION and GROUP BY - https://academy.dqlab.id/Certificate_check/result/DQLABSQLT2BPVLQW/NONTRACK#mycertificate
+Exploratory Data Analysis with Python for Beginner - https://academy.dqlab.id/Certificate_check/result/DQLABINTP1SQDRVI/NONTRACK#mycertificate
+Data Manipulation with Pandas - Part 1 - https://academy.dqlab.id/Certificate_check/result/DQLABINTP1EATTRT/NONTRACK#mycertificate
+Fundamental SQL Using SELECT Statement - https://academy.dqlab.id/Certificate_check/result/DQLABSQLT1PMDAOO/NONTRACK#mycertificate
+Data Manipulation with Pandas - Part 2 - https://academy.dqlab.id/Certificate_check/result/DQLABINTP1PCQBLV#mycertificate
+Statistic using Python for Data Science - Part 1 - https://academy.dqlab.id/Certificate_check/result/DQLABSWP1CADKWC#mycertificate
+Statistic using Python for Data Science - Part 2 - https://academy.dqlab.id/Certificate_check/result/DQLABSWP1GSKMUB#mycertificate
+Pengantar Machine Learning dengan Python - https://academy.dqlab.id/Certificate_check/result/DQLABPMLP1QPEQBP#mycertificate
+Populasi dan Sampel - https://academy.dqlab.id/Certificate_check/result/DQLABPDSP1BAJQGG#mycertificate
+Mengenal Model Regresi Linear Pada Python - https://academy.dqlab.id/Certificate_check/result/DQLABMDNP1KRFCWK#mycertificate
