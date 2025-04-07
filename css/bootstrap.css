@@ -5921,6 +5921,9 @@ button.close {
   .item-certificate h2 {
     font-size: 18px;
   }
+  .item-certificate p {
+    margin-bottom: 30px;
+  }
 }
 
 .carousel-inner > .active,
